@@ -7,6 +7,8 @@ So, what is **Binary Search**? <br><br>
 <em>"Binary Search is a search algorithm that finds the position of a target value within a **sorted** array."</em> <br>
 ~ [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
+> It works in **every** programming language, but i'm gonna show how it works with Python.
+
 ## Examples
 
 Let's take a look here:
