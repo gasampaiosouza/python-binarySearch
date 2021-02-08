@@ -16,7 +16,7 @@ Let's take a look here:
 ```python
 def loop_search(arr, target):
     for pos in arr: # loop through the array
-        if arr[pos] == target: # if find element
+        if arr[pos] == target: # if we find our target
             return arr.index(target) # return its index
 
     return False # else, return false
@@ -75,14 +75,14 @@ So, to do less, we need to do exactly what we did in the first example, but in c
 For example:
 
 * Take **Phone Book**
-* Search for **M** `M = our target`
+* Go to the **center** of the phone book
 * Page word is **M**?
     * No
         * Page word comes first than `M` on alphabet?
             * Yes
-                * So we can discard all the **left** pages!
+                * So we can discard all the pages to the **left**!
             * No
-                * So we can discard all the **right** pages!
+                * So we can discard all the pages to the **right**!
     * Yes!
         * Let's search for `Michael` here!
 
@@ -95,7 +95,7 @@ import math
 # pretend we wanna find 30's index in some array
 
 def binary_search(arr, target):
-    arr.sort() # we MUST sort it, as i said before
+    arr.sort() # we MUST sort it
 
     # define left-side as the first "book's page"
     left = 0
